@@ -1,0 +1,106 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    width: 50%;
+    margin: auto;
+}
+.parent{
+    margin-top: 150px;
+    width: 575px;
+    height: 385px;
+    display: flex;
+    background: #1B244A;
+    /* margin: auto; */
+}
+h1{
+    text-align: center;
+    width: 149px;
+    height: 36px;
+    left: 85px;
+    top: 68px;
+    font-family: 'Verdana';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 36px;
+    /* identical to box height, or 90% */
+
+    text-align: center;
+
+    color: #EEEEEE;
+}
+.black-board{
+    margin-top: 21px;
+    margin-bottom: 26px;
+    width: 155px;
+    height: 120px;
+    left: 337px;
+    top: 125px;
+
+    background: #080001;
+    border-radius: 5px;
+}
+.home-points-text{
+    /* width: 117px;
+    height: 120px; */
+    left: 100px;
+    top: 125px;
+    font-family: 'Cursed Timer ULiL';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 90px;
+    line-height: 127px;
+    /* or 141% */
+
+    text-align: center;
+
+    color: #F94F6D;
+}
+.guest-points-text{
+     /* width: 117px;
+    height: 120px; */
+    left: 100px;
+    top: 125px;
+    font-family: 'Cursed Timer ULiL';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 90px;
+    line-height: 127px;
+    /* or 141% */
+
+    text-align: center;
+
+    color: #F94F6D;
+}
+.left-child{
+    padding: 68px 50px 69px 82px;
+}
+.right-child{
+    padding: 68px 83px 69px 50px;
+}
+button{
+   
+    width: 45px;
+    height: 45px;
+    left: 82px;
+    top: 271px;
+    box-sizing: border-box;
+    border: 2px solid #9AABD8;
+    border-radius: 5px;
+    background-color: transparent;
+    font-family: 'Ubuntu';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 28px;
+    /* or 155% */
+    margin: 1.5px;
+    text-align: center;
+    margin-top: 26px;
+    cursor: pointer;
+    color: #9AABD8;
+
+}
